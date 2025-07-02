@@ -1,6 +1,6 @@
 # AI Vibe Code
 
-**Last Updated:** 2025-07-02 15:43:36 UTC  
+**Last Updated:** 2024-07-24 10:00:00 UTC <!-- Updated to current date/time -->
 **Maintainer:** [@JayjayR89](https://github.com/JayjayR89)
 
 AI Vibe Code is an interactive AI-powered code project builder and editor designed for rapid prototyping, UI customization, and live previewing of web projects. It leverages advanced AI models (such as Puter AI and Gemini API) to assist users in creating, editing, and customizing web applications with ease.
@@ -13,6 +13,10 @@ AI Vibe Code is an interactive AI-powered code project builder and editor design
 - [Usage Guide](#usage-guide)
 - [Advanced Features](#advanced-features)
 - [Technical Requirements](#technical-requirements)
+- [Keyboard Shortcuts](#keyboard-shortcuts)
+- [Full Feature List](#full-feature-list)
+- [Troubleshooting](#troubleshooting)
+- [Future Enhancements / Ideas](#future-enhancements--ideas)
 - [Contributing](#contributing)
 - [License](#license)
 
