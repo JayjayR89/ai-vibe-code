@@ -1,102 +1,162 @@
 # AI Vibe Code
 
+**Last Updated:** 2025-07-02 15:43:36 UTC  
+**Maintainer:** [@JayjayR89](https://github.com/JayjayR89)
+
 AI Vibe Code is an interactive AI-powered code project builder and editor designed for rapid prototyping, UI customization, and live previewing of web projects. It leverages advanced AI models (such as Puter AI and Gemini API) to assist users in creating, editing, and customizing web applications with ease.
 
----
+![Main Interface](scrnli_1lZQXgdTrxZMFK.png)
+
+## Table of Contents
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Usage Guide](#usage-guide)
+- [Advanced Features](#advanced-features)
+- [Technical Requirements](#technical-requirements)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Features
 
 ### 1. AI-Assisted UI Planning and Generation
-- **Conversational UI Design:** Users can describe the content and layout preferences for their projects, such as "I want to build a modern e-commerce website." The AI then generates a tailored plan or code (See ![image1](image1)).
-- **Content & Aesthetic Guidance:** Prompts help users specify content sections (About Me, Projects, Skills, Contact) and design preferences (color, layout, style).
+- **Conversational UI Design:** 
+  - Natural language interface for project requirements
+  - AI-powered code generation
+  - Intuitive project planning
+  ![AI Planning](pp22.png)
+
+- **Content & Aesthetic Guidance:**
+  - Smart content organization
+  - Design preference specification
+  - Automated structure suggestions
+  ![Design Guidance](pp33.png)
 
 ### 2. Project Templates & Creation
-- **Project Wizard:** Easily create new projects with a guided modal. Choose from templates like Blank Project, Landing Page, Portfolio, Blog, Dashboard, or Puter App (See ![image2](image2)).
-- **Custom Project Naming:** Assign unique names to projects or use defaults.
-- **Code Folder Upload:** Option to upload an existing codebase for AI-powered editing.
+- **Project Wizard:**
+  - Multiple template options:
+    - Blank Project
+    - Landing Page
+    - Portfolio
+    - Blog
+    - Dashboard
+    - Puter App
+  ![Template Selection](scrnli_6J4s4Fg9eWxSSY.png)
 
-### 3. Live Code Editor & Preview
-- **Split View:** The interface displays a code editor, customization controls, and a live website preview, enabling instant feedback on changes (See ![image3](image3)).
-- **HTML/CSS/JS Support:** Edit and see effects in real time, supporting rapid iteration.
+### 3. Development Environment
+- **Interactive Code Editor**
+  - Split-view interface
+  - Real-time preview
+  - Syntax highlighting
+  ![Code Editor](scrnli_5O46Nq39IwXO6h.png)
 
-### 4. Visual Editing and Style Controls
-- **Element Editor:** Select elements in the preview to modify text, colors, dimensions, alignment, font family, and more using visual controls (See ![image4](image4)).
-- **Custom CSS Rules:** Directly add or modify CSS properties for granular design control.
-- **AI Modifications:** Enter natural language commands for AI to suggest or apply design and layout changes.
+- **Visual Editor**
+  - Element selection
+  - Property controls
+  - Live style editing
+  ![Visual Editor](scrnli_3TX8IjDp7y08gL.png)
 
-### 5. AI-Driven Modifications
-- **Modify by Prompt:** Users can request changes (e.g., "mobile version") and let the AI update the site’s layout or code accordingly (See ![image4](image4)).
-- **One-Click Edits:** Apply changes manually or let the AI handle multiple edits at once.
+### 4. AI Integration
+- **Multi-Provider Support**
+  - Puter AI
+  - Gemini API
+  - Switchable AI models
+  ![AI Models](scrnli_geD06c8R6WXcpp.png)
 
-### 6. Multi-Provider AI Support
-- **Switch AI Models:** The app supports multiple AI providers (e.g., Puter AI, Gemini API) for different types of generation and assistance (See ![image2](image2), ![image3](image3)).
-
-### 7. User Experience
-- **Intuitive Controls:** Easy-to-use sidebars for project and element management.
-- **Live Feedback:** All changes are applied live and visible instantly in the preview pane.
-
----
-
-## Usage Example
-
-1. **Start a New Project:** Click "New Project," select a template, and name your project.
-2. **Describe Your Vision:** Use the AI Tools sidebar to describe what you want to build and your style preferences.
-3. **Edit and Customize:** Use the editor and element controls to fine-tune your site’s design and content. You can directly edit code or use visual controls.
-4. **Preview Live:** Instantly see your changes reflected in the live preview window.
-5. **Iterate with AI:** Use prompts to request new layouts, mobile versions, or style changes via AI.
-
----
-
-## Screenshots
-
-- **UI Planning with AI:** ![image1](image1)
-- **Project Creation & Templates:** ![image2](image2)
-- **Live Editor and Preview:** ![image3](image3)
-- **Element Style Controls & AI Edit Panel:** ![image4](image4)
-
----
-
-## Full Feature List
-
-- Conversational UI for requirements gathering and design
-- Multiple project templates (Blank, Landing Page, Blog, Dashboard, Portfolio, Puter App)
-- AI-powered code and UI generation
-- Real-time code editing with live preview
-- Visual property editor for HTML/CSS elements
-- Support for custom CSS and direct code editing
-- AI-driven layout and style modifications by prompt
-- Multiple AI provider support (switch between e.g., Gemini and Puter)
-- Upload and edit existing code folders
-- Responsive design support (e.g., generate mobile versions)
-- User-friendly sidebar navigation and project management
-
----
+- **AI-Driven Modifications**
+  - Natural language commands
+  - Automated styling
+  - Layout optimization
+  ![AI Modifications](pp44.png)
 
 ## Getting Started
 
-1. **Clone the repo**
-   ```sh
-   git clone https://github.com/JayjayR89/ai-vibe-code.git
-   ```
-2. **Install dependencies**
-   - (Add instructions for your stack, e.g., `npm install` or other.)
-3. **Run the app**
-   - (Add server/startup instructions here.)
+1. **Installation**
+```bash
+# Clone the repository
+git clone https://github.com/JayjayR89/ai-vibe-code.git
 
----
+# Navigate to project directory
+cd ai-vibe-code
+
+# Install dependencies
+npm install
+
+# Start the application
+npm run dev
+```
+
+2. **Initial Setup**
+   - Launch the application
+   - Click "New Project"
+   - Select a template
+   - Name your project
+   ![Project Setup](scrnli_60XDcf19pwX6h0.png)
+
+## Usage Guide
+
+### 1. Basic Workflow
+1. **Start a New Project**
+   - Choose template
+   - Configure basic settings
+   ![New Project](pp11.png)
+
+2. **Development**
+   - Use the code editor
+   - Apply visual changes
+   - Preview in real-time
+   ![Development](scrnli_b3kZV2F66x1kEj.png)
+
+3. **AI Assistance**
+   - Enter natural language commands
+   - Review suggestions
+   - Apply changes
+   ![AI Assistant](scrnli_94Gs43025XWtzx.png)
+
+### 2. Advanced Features
+- **Responsive Design Tools**
+  - Mobile view testing
+  - Breakpoint management
+  ![Responsive Design](scrnli_hdr1qlN28XV7cm.png)
+
+- **Custom CSS Management**
+  - Style organization
+  - Rule editor
+  ![CSS Management](scrnli_LgV07frKKx2xRJ.png)
+
+## Technical Requirements
+- Modern web browser
+- Internet connection for AI features
+- Minimum 4GB RAM recommended
+
+## Keyboard Shortcuts
+| Shortcut | Action |
+|----------|--------|
+| Ctrl+S | Save changes |
+| Ctrl+P | Preview |
+| Ctrl+Space | AI suggestions |
+| Alt+← → | Switch panels |
+
+![Shortcuts Reference](scrnli_SKmf5b5VMxafFz.png)
+
+## Full Feature List
+- Conversational UI for requirements gathering
+- Multiple project templates
+- AI-powered code generation
+- Real-time preview
+- Visual property editor
+- Custom CSS support
+- AI-driven layout modifications
+- Multiple AI provider support
+- Code folder upload
+- Responsive design support
+- User-friendly navigation
 
 ## Contributing
-
-Contributions are welcome! Please fork the repository and submit a pull request, or open an issue for feedback and suggestions.
-
----
+Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
-
-(Add your license here if any.)
+[Add your license information here]
 
 ---
 
-## Contact
-
-For questions or support, open an issue on GitHub.
+For questions or support, please [open an issue](https://github.com/JayjayR89/ai-vibe-code/issues) on GitHub.
